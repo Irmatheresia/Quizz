@@ -1,0 +1,30 @@
+[
+    {
+        "question" : "Siapa penemu bola lampu",
+        "choice1" : "Albert Enstein",
+        "choice2" : "Andreas Saputra",
+        "choice3" : "Bill Gates",
+        "choice4" : "Thomas Alva Edison",
+        "answer" : 4
+
+    },
+    {
+        "question" : "Ibu membeli tiga buah apel, lalu dimakan adik 2. Berapa sisa apel?",
+        "choice1" : "2",
+        "choice2" : "10",
+        "choice3" : "1",
+        "choice4" : "Semua jawaban benar",
+        "answer" : 3
+
+    },
+    {
+        "question" : "Budi pergi ke sekolah jam 7 pagi, dan lama perjalanan 15 menit. Jam berapa Budi sampai di sekolah?",
+        "choice1" : "08.00",
+        "choice2" : "07.15",
+        "choice3" : "07.00",
+        "choice4" : "07.16",
+        "answer" : 2
+
+    }
+
+]

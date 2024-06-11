@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemilihan Mata Pelajaran</title>
+    <link rel="stylesheet" href="hal_vid.css">
+</head>
+<body>
+    <h1>Pilih Mata Pelajaran</h1>
+    <div class="container" onclick="goToVideo('game_2.html')">
+        <h2>Matematika</h2>
+        <p>Belajar matematika dengan konsep yang mudah dipahami.</p>
+    </div>
+    <div class="container" onclick="goToVideo('game_2.html')">
+        <h2>IPA</h2>
+        <p>Pelajari hukum-hukum fisika dan aplikasinya dalam kehidupan sehari-hari.</p>
+    </div>
+    <div class="container" onclick="goToVideo('game_2.html')">
+        <h2>Bahasa Indonesia</h2>
+        <p>Eksplorasi dunia bahasa Indonesia dan berbagai aspek kebahasaannya.</p>
+    </div>
+    <button class="back-button" onclick="goBackToClass()">Kembali ke Halaman Kelas</button>
+
+    <script>
+        function goToVideo(page) {
+            window.location.href = page;
+        }
+
+        function goBackToClass() {
+            window.location.href = '../kelas.html';
+        }
+
+    </script>
+</body>
+</html>

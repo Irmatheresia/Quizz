@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Quizzify</title>
+  <link rel="stylesheet" href="./app.css" />
+  <link rel="icon" type="image/jpg" href="./assets/logo.jpg">
+  <meta name="google-site-verification" content="iNzSj2wvdEOVu1PtrK5FfEiu_teOG2LQn5i3kg-xozQ" />
+</head>
+<body>
+  <div class="container">
+    <div id="home" class="flex-center flex-column">
+      <h1>Soal Literasi dan Numerasi</h1>
+      <a class="btn" href="kelas.html">Mulai</a> <a class="btn" href="./highscores.html">Skor Tertinggi</a>
+    </div>
+  </div>
+
+  <script>
+    const btnMulai = document.querySelector('.btn[href="./game.html"]'); // Memilih tombol "Mulai"
+    btnMulai.addEventListener('click', function(event) { // Menambahkan event listener "click"
+      event.preventDefault(); // Mencegah navigasi default ke "game.html"
+      window.location.href = './Video.html'; // Mengarahkan ke "Video.html"
+    });
+  </script>
+</body>
+</html>
